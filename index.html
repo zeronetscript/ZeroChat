@@ -14,12 +14,6 @@ li b { color: #3F51B5; }
 small { color: #999; width: 130px; display: inline-block; text-align: right; margin-left: -136px; }
 </style>
 
- <base href="" target="_top" id="base">
- <script>
- setTimeout(function() {
- 	base.href = document.location.href.replace("/media", "").replace("index.html", "").replace(/([&?])wrapper=False/, "$1").replace(/&$/, "").replace(/[&?]wrapper_nonce=[A-Za-z0-9]+/, "") // Fix urls
- }, 100) // 100ms later, to workaround double js download in chrome
- </script>
 </head>
 <body>
 <h1 align="center" style="font-size:32px">中文聊天室</h1></br>
